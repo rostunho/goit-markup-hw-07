@@ -1,0 +1,35 @@
+//block class name: .contacts
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.contacts__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  color: $primaryTextColor;
+
+  @extend %hoverFocusAnimation;
+  transition-property: color;
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+}
+
+.contacts__icon {
+  margin-right: 10px;
+}
