@@ -1,20 +1,26 @@
-%hoverFocusAnimation {
-  transition-duration: $animationDuration;
-  transition-timing-function: $primaryBezier;
+%flexVerticalCentering {
+  display: flex;
+  align-items: center;
 }
 
-%fadeInAnimation {
-  animation-name: fade-in;
-  animation-duration: $animationDuration;
-  animation-timing-function: $primaryBezier;
+%flexCentering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
+%sectionVerticalCentring {
+  padding: 94px 0;
+}
 
-    100% {
-      opacity: 1;
-    }
-  }
+%inboxSpace {
+  margin-left: 30px;
+}
+
+%sectionTitle {
+  margin: 0 0 50px 0;
+
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
 }

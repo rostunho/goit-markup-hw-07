@@ -1,18 +1,30 @@
 //block class name: .contacts
 
 .contacts {
-  display: flex;
-  align-items: center;
+  @extend %flexVerticalCentering;
+
+  &--vertical {
+    display: block;
+  }
 }
 
-.contacts__item:not(:first-child) {
-  margin-left: 30px;
+.contacts__item {
+  &:not(:first-child) {
+    @extend %inboxSpace;
+  }
+
+  &--vertical:not(:last-child) {
+    margin: 0 0 6px 0;
+  }
+
+  &--vertical:last-child {
+    margin: 0;
+  }
 }
 
 .contacts__link {
   position: relative;
-  display: flex;
-  align-items: center;
+  @extend %flexVerticalCentering;
 
   font-weight: 500;
   font-size: 14px;
@@ -27,6 +39,18 @@
   &:hover,
   &:focus {
     color: $accentColor;
+  }
+
+  &--translucent {
+    @include fontSmall();
+    color: $translucentTextColor;
+  }
+}
+
+.contacts__text {
+  &--white {
+    @include fontSmall();
+    color: $secondaryTextColor;
   }
 }
 

@@ -1,8 +1,7 @@
 // block class name: .site-nav
 
 .site-nav__list {
-  display: flex;
-  align-items: center;
+  @extend %flexVerticalCentering;
 }
 
 .site-nav__item:not(:first-child) {

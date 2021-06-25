@@ -1,7 +1,10 @@
 // Common
 
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./utils/placeholders";
+@import "./utils/animations";
+@import "./utils/visually-hidden";
 @import "./base/reset";
 @import "./base/typography";
 @import "./base/container";
@@ -12,3 +15,32 @@
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/contacts";
+
+// Hero
+
+@import "./layout/hero";
+@import "./components/button";
+
+// Features
+
+@import "./layout/features";
+
+//activity
+
+@import "./layout/activity";
+
+// team
+
+@import "./layout/team";
+@import "./components/iconset";
+
+// clients
+
+@import "./layout/clients";
+
+// footer
+
+@import "./layout/footer";
+@import "./components/address";
+@import "./components/follow-us";
+@import "./components/subscribe";
