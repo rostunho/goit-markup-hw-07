@@ -901,6 +901,7 @@ body {
 .input:focus {
   outline-color: var(--accent-color);
 }
+/* ////////////// */
 
 .contract {
   display: flex;

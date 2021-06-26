@@ -79,43 +79,46 @@
     <!-- PORTFOLIIO MAIN -->
 
     <main>
-      <section class="section portfolio">
+      <section class="projects">
         <div class="container">
-          <h1 class="title hide">Нашы проекты</h1>
+          <h1 class="projects__section-title projects__section-title--hidded">
+            Нашы проекты
+          </h1>
+
           <!-- Фильтр -->
 
-          <ul class="filter list">
-            <li class="item">
-              <button type="button" class="filter-button">Все</button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button type="button" class="filter__button">Все</button>
             </li>
-            <li class="item">
-              <button type="button" class="filter-button">Веб-сайты</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Веб-сайты</button>
             </li>
-            <li class="item">
-              <button type="button" class="filter-button">Приложения</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Приложения</button>
             </li>
-            <li class="item">
-              <button type="button" class="filter-button">Дизайн</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Дизайн</button>
             </li>
-            <li class="item">
-              <button type="button" class="filter-button">Маркетинг</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
 
           <!-- Портфолио -->
 
-          <ul class="cardset list">
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+          <ul class="cardset">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_01.jpg"
                     width="370"
                     alt="Члени команди розробників."
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -123,94 +126,96 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="text">Веб-сайт</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Технокряк</h2>
+                  <p class="cardset__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_02.jpg"
                     width="370"
                     alt="НБА. Боротьба Стефа Каррі і Веса Івунду"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Sed eligendi, similique iusto perspiciatis nobis qui.
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Постер New Orlean v Golden State</h2>
-                  <p class="text">Дизайн</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">
+                    Постер New Orlean v Golden State
+                  </h2>
+                  <p class="cardset__text">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
                     class="image"
                     src="./images/picture_03.jpg"
                     width="370"
                     alt="Риба. Логотип ресторану"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Tempore sed veritatis necessitatibus illo quisquam rem
                       tempora ea velit in exercitationem.
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Ресторан Seafood</h2>
-                  <p class="text">Приложение</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Ресторан Seafood</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_04.jpg"
                     width="370"
                     alt="Бездротові навушники"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ad placeat perspiciatis non rerum, alias excepturi autem.
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Проект Prime</h2>
-                  <p class="text">Маркетинг</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Проект Prime</h2>
+                  <p class="cardset__text">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_05.jpg"
                     width="370"
                     alt="Стильні коробки"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam laboriosam quidem illum culpa amet ullam impedit
                       in rem quia distinctio odit voluptatem quos, earum ipsam
@@ -218,104 +223,104 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Проект Boxes</h2>
-                  <p class="text">Приложение</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Проект Boxes</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_06.jpg"
                     width="370"
                     alt="Монітор з відкритою сторінкою сайту клієнта"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Corporis suscipit nisi maiores dignissimos commodi ad?
                       Eveniet tenetur nihil ullam. Perferendis?
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="text">Веб-сайт</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Inspiration has no Borders</h2>
+                  <p class="cardset__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_07.jpg"
                     width="370"
                     alt="Відкрита книга з ілюстраціями"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Iure deleniti porro doloribus, sequi rerum sapiente non
                       nihil.
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Издание Limited Edition</h2>
-                  <p class="text">Дизайн</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Издание Limited Edition</h2>
+                  <p class="cardset__text">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_08.jpg"
                     width="370"
                     alt="Сувенірна айдентика клієнта"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Unde voluptas ducimus cum quidem provident modi maiores
                       corrupti error!
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Проект LAB</h2>
-                  <p class="text">Маркетинг</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Проект LAB</h2>
+                  <p class="cardset__text">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="#" class="card-link link">
-                <div class="card-thumb">
+            <li class="cardset__item">
+              <a href="#" class="cardset__link">
+                <div class="cardset__thumb">
                   <img
-                    class="image"
+                    class="cardset__image"
                     src="./images/picture_09.jpg"
                     width="370"
                     alt="Ноутбук з відкритим додатком клієнта"
                   />
-                  <div class="overlay">
-                    <p class="text over">
+                  <div class="dropup cardset__dropup">
+                    <p class="dropup__text">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Nihil eligendi provident officiis!
                     </p>
                   </div>
                 </div>
-                <div class="card-desc">
-                  <h2 class="title">Growing Business</h2>
-                  <p class="text">Приложение</p>
+                <div class="cardset__description">
+                  <h2 class="cardset__title">Growing Business</h2>
+                  <p class="cardset__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -326,24 +331,32 @@
 
     <!-- PORTFOLIO FOOTER -->
 
-    <footer id="contacts" class="footer">
-      <div class="container">
-        <h2 class="title hide">Контакты</h2>
+    <footer class="footer" id="contacts">
+      <div class="container footer__container">
+        <h2 class="footer__section-title footer__section-title--hidded">
+          Контакты
+        </h2>
         <address class="address">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo-text">Studio</span></a
+          <a class="logo logo--invert address__logo" href="./index.html"
+            >Web<span class="logo__second-half">Studio</span></a
           >
-          <ul class="list">
-            <li class="item">
-              <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="contacts contacts--vertical">
+            <li class="contacts__item contacts__item--vertical">
+              <p class="contacts__text contacts__text--white">
+                г. Киев, пр-т Леси Украинки, 26
+              </p>
             </li>
-            <li class="item">
-              <a href="mailto:info@example.com" class="contact link"
+            <li class="contacts__item contacts__item--vertical">
+              <a
+                href="mailto:info@example.com"
+                class="contacts__link contacts__link--translucent"
                 >info@example.com</a
               >
             </li>
-            <li class="item">
-              <a href="tel:+380991111111" class="contact link"
+            <li class="contacts__item contacts__item--vertical">
+              <a
+                href="tel:+380991111111"
+                class="contacts__link contacts__link--translucent"
                 >+38 099 111 11 11</a
               >
             </li>
@@ -351,36 +364,38 @@
         </address>
 
         <div class="follow-us">
-          <h3 class="title">Присоединяйтесь</h3>
+          <h3 class="follow-us__title follow-us__title--white">
+            Присоединяйтесь
+          </h3>
 
-          <ul class="list icon-set">
-            <li class="item">
-              <a href="" class="link">
-                <svg class="icon" width="20" height="20">
+          <ul class="iconset">
+            <li class="iconset__item">
+              <a href="" class="iconset__link iconset__link--alternative">
+                <svg class="iconset__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="item">
-              <a href="" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="iconset__item">
+              <a href="" class="iconset__link iconset__link--alternative">
+                <svg class="iconset__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="item">
-              <a href="" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="iconset__item">
+              <a href="" class="iconset__link iconset__link--alternative">
+                <svg class="iconset__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="item">
-              <a href="" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="iconset__item">
+              <a href="" class="iconset__link iconset__link--alternative">
+                <svg class="iconset__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -389,17 +404,21 @@
         </div>
 
         <form action="#" class="subscribe">
-          <label class="title" for="subscribe">Подпишитесь на рассылку</label>
-          <div class="form-field">
+          <label
+            class="subscribe__title subscribe__title--white"
+            for="subscribe"
+            >Подпишитесь на рассылку</label
+          >
+          <div class="subscribe__form-field">
             <input
+              class="subscribe__input"
               type="email"
-              class="input"
               placeholder="E-mail"
               id="subscribe"
             />
             <button type="submit" class="button">
               Подписаться
-              <svg class="icon" width="24" height="24">
+              <svg class="button__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
