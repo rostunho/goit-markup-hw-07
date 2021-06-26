@@ -13,7 +13,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 
   transition-property: opacity, visibility;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 
   &--is-hidden {
     opacity: 0;
@@ -38,7 +38,7 @@
   padding: 40px;
 
   transition-property: transform;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 
   background-color: $primaryBgColor;
   border-radius: 4px;
@@ -55,7 +55,7 @@
   height: 30px;
   border-radius: 50%;
 
-  @extend %flexCentering;
+  @extend %flexCentring;
 
   cursor: pointer;
   background-color: transparent;
@@ -73,7 +73,7 @@
   color: $altTextColor;
 
   transition-property: color;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 }
 
 .modal__title {
@@ -102,7 +102,7 @@
 
 .modal__form-field {
   position: relative;
-  @extend %flexVerticalCentering;
+  @extend %flexVerticalCentring;
   margin-bottom: 10px;
 
   &:hover,
@@ -121,7 +121,7 @@
   color: $titleColor;
 
   transition-property: color;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 }
 
 .modal__input {
@@ -137,7 +137,7 @@
   cursor: pointer;
 
   transition-property: border, outline-color;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 
   &:hover {
     border: 1px solid $accentColor;
@@ -161,7 +161,7 @@
 }
 
 .modal__contract {
-  @extend %flexCentering;
+  @extend %flexCentring;
   margin-bottom: 30px;
 }
 
@@ -172,7 +172,7 @@
   cursor: pointer;
 
   transition-property: color, background-color, border;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 }
 
 .modal__checkbox {
@@ -197,7 +197,7 @@
 }
 
 .modal__custom-checkbox {
-  @extend %flexVerticalCentering;
+  @extend %flexVerticalCentring;
   margin-right: 8px;
 }
 

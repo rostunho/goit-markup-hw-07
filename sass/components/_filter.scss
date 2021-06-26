@@ -1,11 +1,12 @@
 .filter {
-  display: flex;
-  justify-content: center;
+  @extend %flexCentring;
   margin-bottom: 50px;
 }
 
-.filter__item:not(:first-child) {
-  margin-left: 8px;
+.filter__item {
+  &:not(:first-child) {
+    margin-left: 8px;
+  }
 }
 
 .filter__button {
@@ -20,7 +21,7 @@
   cursor: pointer;
 
   transition-property: color, background-color, box-shadow;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 
   &:hover,
   &:focus {

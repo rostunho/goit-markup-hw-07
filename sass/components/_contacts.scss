@@ -1,7 +1,7 @@
 //block class name: .contacts
 
 .contacts {
-  @extend %flexVerticalCentering;
+  @extend %flexVerticalCentring;
 
   &--vertical {
     display: block;
@@ -24,7 +24,7 @@
 
 .contacts__link {
   position: relative;
-  @extend %flexVerticalCentering;
+  @extend %flexVerticalCentring;
 
   font-weight: 500;
   font-size: 14px;
@@ -33,7 +33,7 @@
 
   color: $primaryTextColor;
 
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
   transition-property: color;
 
   &:hover,

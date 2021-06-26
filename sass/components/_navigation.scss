@@ -1,11 +1,13 @@
 // block class name: .site-nav
 
 .site-nav__list {
-  @extend %flexVerticalCentering;
+  @extend %flexVerticalCentring;
 }
 
-.site-nav__item:not(:first-child) {
-  margin-left: 50px;
+.site-nav__item {
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
 }
 
 .site-nav__link {
@@ -16,7 +18,7 @@
   line-height: 1.143;
   letter-spacing: 0.02em;
 
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
   transition-property: color;
 
   &:hover,

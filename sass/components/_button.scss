@@ -1,6 +1,5 @@
 .button {
-  @extend %flexVerticalCentering;
-  justify-content: center;
+  @extend %flexCentring;
   margin: 0 auto;
 
   min-width: 200px;
@@ -20,7 +19,7 @@
   background-color: $accentColor;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
   transition-property: background-color;
 
   &:hover,

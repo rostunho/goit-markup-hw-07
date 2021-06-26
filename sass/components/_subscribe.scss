@@ -39,8 +39,7 @@
   cursor: pointer;
 
   transition-property: border, outline-color;
-  transition-duration: $animationDuration;
-  transition-timing-function: $primaryBezier;
+  @extend %smoothTransition;
 
   &:hover,
   &:focus {

@@ -29,13 +29,13 @@
   left: 0;
   transform: translateY(101%);
   transition-property: transform;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 }
 
 .cardset__link {
   display: block;
   transition-property: box-shadow;
-  @extend %hoverFocusAnimation;
+  @extend %smoothTransition;
 
   &:hover,
   &:focus {
